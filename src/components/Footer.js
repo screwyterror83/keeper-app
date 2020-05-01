@@ -6,7 +6,9 @@ const Footer = () => {
 
   return (
     <footer>
-      <p>Copyright {year}</p>
+      <p>
+        Copyright <span role="img" aria-label="copyright">©️</span> {year}
+      </p>
     </footer>
   );
 }
