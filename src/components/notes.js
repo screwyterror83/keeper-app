@@ -23,6 +23,12 @@ const notes = [
     content:
       "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software.",
   },
+  {
+    key: 5,
+    title: "Map/Filter/Reduce",
+    content:
+      "These 3 functions are very useful when come down to array manipulation, when compare with 'forEach' function, they are far more concise, and easy to use."
+  }
 ];
 
 export default notes;
